@@ -16,13 +16,13 @@ It analyze source code files and count the number of keywords and special symbol
 
 6. . To run type below commands:
 ```
-**gcc file_name.c**
+gcc file_name.c
 
-**./a.out "path_of_gcc_Source_Code"**
+./a.out "path_of_gcc_Source_Code"
 
 or
 
-**./a.exe "path_of_gcc_Source_Code"**
+./a.exe "path_of_gcc_Source_Code"
 ```
 
 7. The program will analyze each file and append the results to a **README.md** file. You can open the **README.md** file to view the analysis results.
