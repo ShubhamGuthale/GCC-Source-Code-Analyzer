@@ -4,26 +4,28 @@ It analyze source code files and count the number of keywords and special symbol
 
 # Instruction
 
-1. To run these programs your system must have downloaded GCC Source Code.
+1. To run these programs your system must have download **GCC Source Code**.
 
-2. Open file with any Code Editor as per your convinience.
+2. Open file with any **Code Editor** as per your convinience.
 
 3. Save the file using **.c** extension.
 
 4. Open Code editor having path as same folder.
 
-5. create a README file for summarizing the analysis results for each file.
+5. create a **README file** for summarizing the analysis results for each file.
 
 6. . To run type below commands:
 ```
-gcc file_name.c
+**gcc file_name.c**
 
-./a.out "path_of_gcc_Source_Code"
+**./a.out "path_of_gcc_Source_Code"**
+
 or
-./a.exe "path_of_gcc_Source_Code"
+
+**./a.exe "path_of_gcc_Source_Code"**
 ```
 
-7. The program will analyze each file and append the results to a README.md file. You can open the README.md file to view the analysis results.
+7. The program will analyze each file and append the results to a **README.md** file. You can open the **README.md** file to view the analysis results.
 
 
 
