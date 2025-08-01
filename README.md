@@ -1,32 +1,50 @@
-# Impementation-Of-GCC-Analyzer
+# 🧠 GCC Source Code Analyzer – C File Keyword & Symbol Counter
 
-It analyze source code files and count the number of keywords and special symbols. To create a README file summarizing the analysis results for each file, you can follow the below steps and Instruction
+A C-based tool that recursively scans and analyzes **GCC source code files** to count:
+- 🔑 C language **keywords**
+- 🔣 Special **symbols**
+- 📄 Appends analysis results to a `README.md` report
 
-# Instruction
+This utility helps in performing **static analysis** on large codebases like the GCC compiler source to identify usage patterns of language constructs.
 
-1. To run these programs your system must have download **GCC Source Code**.
+---
 
-2. Open file with any **Code Editor** as per your convinience.
+## 🎯 Features
 
-3. Save the file using **.c** extension.
+- ✅ Analyze `.c` files from the GCC source directory
+- ✅ Count C **keywords** (like `if`, `while`, `int`, etc.)
+- ✅ Count **special characters** (`{}`, `;`, `#`, etc.)
+- ✅ Generate and update `README.md` with results
+- ✅ Works recursively across all files in a directory
 
-4. Open Code editor having path as same folder.
+---
 
-5. create a **README file** for summarizing the analysis results for each file.
+## 🛠️ Tech Stack
 
-6. . To run type below commands:
-```
-gcc file_name.c
-
-./a.out "path_of_gcc_Source_Code"
-
-or
-
-./a.exe "path_of_gcc_Source_Code"
-```
-
-7. The program will analyze each file and append the results to a **README.md** file. You can open the **README.md** file to view the analysis results.
-
+| Component         | Technology          |
+|------------------|---------------------|
+| Language          | C (GCC Compatible)  |
+| Platform          | Linux / Windows     |
+| Editor Support    | VS Code, Notepad++, Sublime |
+| Dependencies      | GCC (for compilation) |
+| Output Format     | Markdown (`README.md`) |
 
 
-<img width="960" alt="Screenshot 2024-01-14 102622" src="https://github.com/ShubhamGuthale/Implementation-Of-GCC-Analyzer/assets/150772720/ea4fb951-dd9a-4384-8ff7-71c9eb100f10">
+---
+
+## 📥 Prerequisites
+
+- 🧱 GCC installed on your system
+- 📁 Access to downloaded GCC source code (example: `/home/user/gcc-source/`)
+- 🧑‍💻 Any code editor (VS Code recommended)
+
+---
+
+## 🚀 How to Run
+
+### ✅ 1. Save and Compile
+
+Save your file as `analyze.c` or any `.c` filename.
+
+```bash
+gcc analyze.c -o analyzer
