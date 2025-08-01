@@ -48,3 +48,9 @@ Save your file as `analyze.c` or any `.c` filename.
 
 ```bash
 gcc analyze.c -o analyzer
+
+---
+
+## 📝 Sample Screenshot
+
+<img width="960" alt="Screenshot 2024-01-14 102622" src="https://github.com/ShubhamGuthale/Implementation-Of-GCC-Analyzer/assets/150772720/ea4fb951-dd9a-4384-8ff7-71c9eb100f10">
